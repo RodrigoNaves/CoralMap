@@ -1,0 +1,106 @@
+{
+    "homeCamera": {
+      "north": -8,
+      "east": 158,
+      "south": -45,
+      "west": 109
+    },
+    "catalog": [
+  
+
+      {
+        "type": "csv",
+        "url": "test/y_2006_lgacodes.csv",
+        "name": "2006 census",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      },
+      {
+        "type": "csv",
+        "url": "test/y_2006_pct_lgacodes.csv",
+        "name": "2006 census percentage",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      },
+      {
+        "type": "csv",
+        "url": "test/y_2011_lgacodes.csv",
+        "name": "2011 census",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      },
+      {
+        "type": "csv",
+        "url": "test/y_2011_pct_lgacodes.csv",
+        "name": "2011 census percentage",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      },
+      {
+        "type": "csv",
+        "url": "test/y_2016_lgacodes.csv",
+        "name": "2016 census",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      },
+      {
+        "type": "csv",
+        "url": "test/y_2016_pct_lgacodes.csv",
+        "name": "2016 census percentage",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      },
+      {
+        "type": "csv",
+        "url": "test/y_2021_lgacodes.csv",
+        "name": "2021 census",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      },
+      {
+        "type": "csv",
+        "url": "test/y_2021_pct_lgacodes.csv",
+        "name": "2021 census percentage",
+        "activeStyle": "Australia",   
+        
+        "featureInfoTemplate": {
+          "name": "{{LGA_NAME}} {{STE_NAME}}",
+          "template": "<strong>Please select button to see populations by country</strong>"
+        }
+      }
+      
+
+      
+    ],
+    "baseMapId": "basemap-bing-aerial-with-labels",
+    "previewBaseMapId": "basemap-positron"
+  }
+  
