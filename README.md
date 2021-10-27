@@ -1,16 +1,16 @@
 Coral Map
 ==========
+This repository includes the source coude for deployment of coralmap and the machine learning  pipelines used to develop the multi-output regression model that backs coralmap's preductions.
 
-# This documentation details 
-What this means:
-- [Our new main branch of TerriaMap](https://github.com/TerriaJS/TerriaMap/tree/main) now uses v8+ of TerriaJS
-- [The terriajs7 branch of TerriaMap](https://github.com/TerriaJS/TerriaMap/tree/terriajs7) will use v7 TerriaJS
-- We have a [migration guide](https://docs.terria.io/guide/contributing/migration-guide/) available for users of TerriaJS v7 to help them upgrade their applications to TerriaJS v8
-- Please chat to us and the community in our [GitHub discussions forum](https://github.com/TerriaJS/terriajs/discussions)
+# Deployment
+For deployment please pull deployment folder and inside your server change the directory where you saved the source code and run:
+```./node_modules/.bin/pm2 start ecosystem-production.config.js --update-env --env production```
+This server will start on port 3001
 
+For further details please refer to the TerriJS documentation:
 -------------------
 
-[![Build Status](https://github.com/TerriaJS/TerriaMap/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/TerriaJS/TerriaMap/actions/workflows/ci.yml) [![Docs](https://img.shields.io/badge/docs-online-blue.svg)](https://docs.terria.io/)
+[![Build Status](https://docs.terria.io/guide/) [![Docs](https://img.shields.io/badge/docs-online-blue.svg)](https://docs.terria.io/)
 
 ![Unimelb logo](deployment/unimelb-logo.png "Unimelb logo")
 
@@ -19,3 +19,4 @@ This is a complete website built using the TerriaJS library. See the [TerriaJS R
 
 
 For instructions on how to deploy your map, see [the documentation here](doc/deploying/deploying-to-aws.md).
+# Machine Learning
