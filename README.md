@@ -10,7 +10,7 @@ To access the publicly deployed version of coralmap [Go to coralmap](http://cora
 1. Ensure to change your "map settings" to white and gray colours
 2. Load census data by clicking "Explore map data"
 3. Choose preferred dataset and "Add to the map"
-4. Explore all LGA's accross Australia, see detail data by clicking on LGA area
+4. Explore all  LGA's accross Australia, see detail data by clicking on LGA area
 -------------------
 # Deployment
 For deployment please pull deployment folder and inside your server change the directory where you saved the source code and run:
